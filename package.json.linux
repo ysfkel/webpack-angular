@@ -1,0 +1,19 @@
+{
+  "name": "angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    //"start":"node node_modules/.bin/webpack-dev-server.cmd --content-base app", //on LINUX
+    "build":"NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}

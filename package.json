@@ -1,0 +1,23 @@
+{
+  "name": "angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node_modules/.bin/webpack-dev-server.cmd --content-base app/",
+    "build": "NODE_ENV=production node_modules/.bin/webpack.cmd && cp app/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
