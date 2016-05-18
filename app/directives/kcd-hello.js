@@ -1,7 +1,7 @@
 
 
-module.exports=function(ngModule){
-    ngModule.directive('kcdHello',function(){
+export default ngModule=>{
+    ngModule.directive('kcdHello',()=>{
        return {
            restrict:'E',
            scope:{},
